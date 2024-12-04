@@ -44,7 +44,7 @@ public class Matriz {
         if (r>=n || c>=m || r<0 || m<0){
             throw new PosicionIlegalException();
         }
-        //coloca aquí el código faltante
+        return matriz[r][c];
     }
     public int filasMat(){
         return n;
